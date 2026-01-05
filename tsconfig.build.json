@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "jsx": "react-jsx",
+  
+      "outDir": "dist",
+      "declaration": true,
+      "emitDeclarationOnly": false,
+  
+      "strict": false,
+      "skipLibCheck": true,
+  
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+  
+      "resolveJsonModule": true
+    },
+    "include": ["src", "svg.d.ts"],
+    "exclude": ["node_modules", "android", "ios"]
+  }
+  
