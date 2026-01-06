@@ -1,17 +1,17 @@
 import React from "react";
-import { icons, IconName } from "./index";
+import { icons, IconName } from "../icons";
 
 type IconProps = {
   name: IconName;
   size?: number;
   color?: string;
   strokeWidth?: number;
-};
+} & React.FC<React.SVGProps<SVGSVGElement>>;
 
 const Icon = ({
   name,
   size = 24,
-  color = "#000",
+  color = "currentColor",
   strokeWidth = 2,
   ...props
 }: IconProps) => {

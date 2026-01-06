@@ -1,11 +1,12 @@
 {
-  "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true,
     "noEmit": false,
-    "allowImportingTsExtensions": false
+    "allowImportingTsExtensions": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx"
   },
-  "include":
-  ["src", "svg.d.ts"]
+  "include": ["src", "svg.d.ts"]
 }

@@ -1,97 +1,171 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Solux Icons
 
-# Getting Started
+[![npm version](https://badge.fury.io/js/%40soluxicons%2Ficons.svg)](https://badge.fury.io/js/%40soluxicons%2Ficons)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+A modern, comprehensive SVG icon library for **React Native**, **React JS**, and **Next.js**. Beautiful, customizable icons with TypeScript support and optimized performance across all platforms.
 
-## Step 1: Start Metro
+## ✨ Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- 🎨 **Modern SVG Icons** - Clean, scalable vector graphics
+- 📱 **Cross-Platform** - Works seamlessly with React Native, React JS, and Next.js
+- 🔷 **TypeScript Support** - Full type safety with `IconName` types
+- ⚡ **Optimized** - Tree-shakable and performant
+- 🎯 **Customizable** - Size, color, and stroke width control
+- 📦 **Lightweight** - No external dependencies for icons themselves
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 🚀 Installation
 
-```sh
-# Using npm
-npm start
-
-# OR using Yarn
-yarn start
+```bash
+npm install @soluxicons/icons react-native-svg
+# or
+yarn add @soluxicons/icons react-native-svg
 ```
 
-## Step 2: Build and run your app
+### React Native Setup
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+For React Native, you also need `react-native-svg`:
 
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```bash
+npm install react-native-svg
+cd ios && pod install
 ```
 
-### iOS
+## 📖 Usage
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### Basic Usage
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+```tsx
+import { Icon, IconName } from '@soluxicons/icons';
 
-```sh
-bundle install
+function MyComponent() {
+  return (
+    <Icon
+      name="circleExclamation"
+      size={24}
+      color="#FF6B6B"
+      strokeWidth={2}
+    />
+  );
+}
 ```
 
-Then, and every time you update your native dependencies, run:
+### React Native Example
 
-```sh
-bundle exec pod install
+```tsx
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { Icon } from '@soluxicons/icons';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Icon name="heart" size={32} color="#FF6B6B" />
+      <Icon name="star" size={24} color="#FFD93D" strokeWidth={1.5} />
+      <Icon name="checkCircle" size={28} color="#6BCF7F" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    padding: 20,
+  },
+});
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### React Web Example
 
-```sh
-# Using npm
-npm run ios
+```tsx
+import React from 'react';
+import { Icon } from '@soluxicons/icons';
 
-# OR using Yarn
-yarn ios
+export default function MyComponent() {
+  return (
+    <div>
+      <Icon name="user" size={20} color="#333" />
+      <Icon name="settings" size={16} color="#666" />
+    </div>
+  );
+}
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## 🎨 Icon Props
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `name` | `IconName` | **required** | The icon name from available icons |
+| `size` | `number` | `24` | Icon size in pixels |
+| `color` | `string` | `"#000"` | Icon color (stroke color) |
+| `strokeWidth` | `number` | `2` | Stroke width of the icon |
 
-## Step 3: Modify your app
+## 📋 Available Icons
 
-Now that you have successfully run the app, let's make changes!
+The library includes hundreds of icons across multiple categories:
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+- **Alerts** - warning, error, success, info icons
+- **Arrows** - directional and navigation arrows
+- **Business** - commerce and finance icons
+- **Communication** - chat, email, social media icons
+- **Editing** - text formatting and tools
+- **People** - user and profile related icons
+- **Security** - locks, shields, authentication icons
+- **Time** - clocks, calendars, scheduling icons
+- And many more...
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+## 🔧 Development
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+### Building the Library
 
-## Congratulations! :tada:
+```bash
+# Install dependencies
+npm install
 
-You've successfully run and modified your React Native App. :partying_face:
+# Build for production
+npm run build
 
-### Now what?
+# Normalize SVG files (if adding new icons)
+npm run normalize:svgs
+```
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+### Project Structure
 
-# Troubleshooting
+```
+src/
+├── icons/           # Core icon components and SVG exports
+│   ├── Icon.tsx    # Main Icon component
+│   ├── index.ts    # Icon exports and types
+│   └── svgs/       # Individual SVG icon files
+├── web/            # Web-specific implementation
+├── native/         # React Native-specific implementation
+└── index.ts        # Main library exports
+```
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+### Adding New Icons
 
-# Learn More
+1. Add your SVG file to the appropriate category folder in `src/icons/svgs/`
+2. Run `npm run normalize:svgs` to standardize the SVG format
+3. The build script will automatically include new icons
 
-To learn more about React Native, take a look at the following resources:
+## 🤝 Contributing
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Icons designed with modern aesthetics in mind
+- Built with TypeScript for better developer experience
+- Optimized for performance across all platforms

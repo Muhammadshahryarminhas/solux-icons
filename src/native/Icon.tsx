@@ -1,7 +1,9 @@
 import React from "react";
-import { icons, IconName } from "./index";
+import { SvgProps } from "react-native-svg";
+import { icons, IconName } from "../icons";
+export { default as Icon } from "./Icon";
 
-type IconProps = {
+type IconProps = SvgProps & {
   name: IconName;
   size?: number;
   color?: string;
@@ -16,7 +18,6 @@ const Icon = ({
   ...props
 }: IconProps) => {
   const SvgIcon = icons[name];
-
   if (!SvgIcon) return null;
 
   return (
