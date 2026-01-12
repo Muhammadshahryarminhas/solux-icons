@@ -373,6 +373,7 @@ import ChartGantt from "./svgs/Charts/chart-gantt.svg";
 import ChartLineUp from "./svgs/Charts/chart-line-up.svg";
 import ChartNetwork from "./svgs/Charts/chart-network.svg";
 import ChartPieAlt from "./svgs/Charts/chart-pie-alt.svg";
+import ChartPieFill from "./svgs/Charts/chart-pie-fill.svg";
 import ChartPyramid from "./svgs/Charts/chart-pyramid.svg";
 import ChartRadar from "./svgs/Charts/chart-radar.svg";
 import ChartScatter3d from "./svgs/Charts/chart-scatter-3d.svg";
@@ -390,7 +391,7 @@ import DiagramNested from "./svgs/Charts/diagram-nested.svg";
 import DiagramNext from "./svgs/Charts/diagram-next.svg";
 import DiagramPredecessor from "./svgs/Charts/diagram-predecessor.svg";
 import DiagramPrevious from "./svgs/Charts/diagram-previous.svg";
-import DiagramProject from "./svgs/Charts/diagram-project.svg";
+import DiagramProjectLong from "./svgs/Charts/diagram-project-long.svg";
 import DiagramSankey from "./svgs/Charts/diagram-sankey.svg";
 import DiagramSubtask from "./svgs/Charts/diagram-subtask.svg";
 import DiagramSuccessor from "./svgs/Charts/diagram-successor.svg";
@@ -417,6 +418,7 @@ import CodeMerge from "./svgs/Coding/code-merge.svg";
 import CodePullRequestClosed from "./svgs/Coding/code-pull-request-closed.svg";
 import CodePullRequest from "./svgs/Coding/code-pull-request.svg";
 import Code from "./svgs/Coding/code.svg";
+import DiagramProject from "./svgs/Coding/diagram-project.svg";
 import Notdef from "./svgs/Coding/notdef.svg";
 import RectangleCode from "./svgs/Coding/rectangle-code.svg";
 import RectangleTerminal from "./svgs/Coding/rectangle-terminal.svg";
@@ -567,6 +569,148 @@ import SendRight from "./svgs/Communication/send-right.svg";
 import SendVerticle from "./svgs/Communication/send-verticle.svg";
 import Send from "./svgs/Communication/send.svg";
 import Voicemail from "./svgs/Communication/voicemail.svg";
+import AirpodsAlt from "./svgs/Devices/airpods-alt.svg";
+import Airpods from "./svgs/Devices/airpods.svg";
+import CameraAlt from "./svgs/Devices/camera-alt.svg";
+import CameraOld from "./svgs/Devices/camera-old.svg";
+import CameraSlash from "./svgs/Devices/camera-slash.svg";
+import Camera from "./svgs/Devices/camera.svg";
+import CarBattery from "./svgs/Devices/car-battery.svg";
+import Circuit from "./svgs/Devices/circuit.svg";
+import DesktopComputer from "./svgs/Devices/desktop-computer.svg";
+import DigitalCamera from "./svgs/Devices/digital-camera.svg";
+import DiscAlt from "./svgs/Devices/disc-alt.svg";
+import Disc from "./svgs/Devices/disc.svg";
+import DrawingTablet from "./svgs/Devices/drawing-tablet.svg";
+import Flashlight from "./svgs/Devices/flashlight.svg";
+import FloppyDiskAlt from "./svgs/Devices/floppy-disk-alt.svg";
+import GamingPadAlt from "./svgs/Devices/gaming-pad-alt.svg";
+import GamingPad from "./svgs/Devices/gaming-pad.svg";
+import GamingStick from "./svgs/Devices/gaming-stick.svg";
+import HardDrive from "./svgs/Devices/hard-drive.svg";
+import HeadphonesAlt from "./svgs/Devices/headphones-alt.svg";
+import HeadphonesMic from "./svgs/Devices/headphones-mic.svg";
+import HeadphonesSmooth from "./svgs/Devices/headphones-smooth.svg";
+import Headphones from "./svgs/Devices/headphones.svg";
+import KeyboardAlt from "./svgs/Devices/keyboard-alt.svg";
+import KeyboardSpace from "./svgs/Devices/keyboard-space.svg";
+import Keyboard from "./svgs/Devices/keyboard.svg";
+import LaptopAlt from "./svgs/Devices/laptop-alt.svg";
+import LaptopArrowDownAlt from "./svgs/Devices/laptop-arrow-down-alt.svg";
+import LaptopArrowDown from "./svgs/Devices/laptop-arrow-down.svg";
+import LaptopArrowUpAlt from "./svgs/Devices/laptop-arrow-up-alt.svg";
+import LaptopArrowUp from "./svgs/Devices/laptop-arrow-up.svg";
+import LaptopButton from "./svgs/Devices/laptop-button.svg";
+import LaptopCheckAlt from "./svgs/Devices/laptop-check-alt.svg";
+import LaptopCheck from "./svgs/Devices/laptop-check.svg";
+import LaptopCurve from "./svgs/Devices/laptop-curve.svg";
+import LaptopDollar from "./svgs/Devices/laptop-dollar.svg";
+import LaptopExclamationAlt from "./svgs/Devices/laptop-exclamation-alt.svg";
+import LaptopExclamation from "./svgs/Devices/laptop-exclamation.svg";
+import LaptopLockAlt from "./svgs/Devices/laptop-lock-alt.svg";
+import LaptopLock from "./svgs/Devices/laptop-lock.svg";
+import LaptopRefreshAlt from "./svgs/Devices/laptop-refresh-alt.svg";
+import LaptopRefresh from "./svgs/Devices/laptop-refresh.svg";
+import LaptopSearchAlt from "./svgs/Devices/laptop-search-alt.svg";
+import LaptopSearch from "./svgs/Devices/laptop-search.svg";
+import LaptopShieldAlt from "./svgs/Devices/laptop-shield-alt.svg";
+import LaptopShield from "./svgs/Devices/laptop-shield.svg";
+import LaptopSignalAlt from "./svgs/Devices/laptop-signal-alt.svg";
+import LaptopSignal from "./svgs/Devices/laptop-signal.svg";
+import LaptopWired from "./svgs/Devices/laptop-wired.svg";
+import LaptopXmarkAlt from "./svgs/Devices/laptop-xmark-alt.svg";
+import LaptopXmark from "./svgs/Devices/laptop-xmark.svg";
+import Laptop from "./svgs/Devices/laptop.svg";
+import Microchip from "./svgs/Devices/microchip.svg";
+import MicrophoneAltFull from "./svgs/Devices/microphone-alt-full.svg";
+import MicrophoneAlt from "./svgs/Devices/microphone-alt.svg";
+import MicrophoneSlashAltFull from "./svgs/Devices/microphone-slash-alt-full.svg";
+import MicrophoneSlashAlt from "./svgs/Devices/microphone-slash-alt.svg";
+import MicrophoneSlash from "./svgs/Devices/microphone-slash.svg";
+import Microphone from "./svgs/Devices/microphone.svg";
+import MobileAlt from "./svgs/Devices/mobile-alt.svg";
+import MobileBolt from "./svgs/Devices/mobile-bolt.svg";
+import MobileButtonAlt from "./svgs/Devices/mobile-button-alt.svg";
+import MobileButton from "./svgs/Devices/mobile-button.svg";
+import MobileCheck from "./svgs/Devices/mobile-check.svg";
+import MobileDollar from "./svgs/Devices/mobile-dollar.svg";
+import MobileSlash from "./svgs/Devices/mobile-slash.svg";
+import MobileXmark from "./svgs/Devices/mobile-xmark.svg";
+import Mobile from "./svgs/Devices/mobile.svg";
+import ModemAntina from "./svgs/Devices/modem-antina.svg";
+import ModemBar from "./svgs/Devices/modem-bar.svg";
+import ModemSignals from "./svgs/Devices/modem-signals.svg";
+import ModemTilt from "./svgs/Devices/modem-tilt.svg";
+import Modem from "./svgs/Devices/modem.svg";
+import MonitorAlt from "./svgs/Devices/monitor-alt.svg";
+import MonitorAppleAlt from "./svgs/Devices/monitor-apple-alt.svg";
+import MonitorApple from "./svgs/Devices/monitor-apple.svg";
+import MonitorCurve from "./svgs/Devices/monitor-curve.svg";
+import MonitorFloat from "./svgs/Devices/monitor-float.svg";
+import MonitorStandAlt from "./svgs/Devices/monitor-stand-alt.svg";
+import MonitorStand from "./svgs/Devices/monitor-stand.svg";
+import Monitor from "./svgs/Devices/monitor.svg";
+import MouseAlt from "./svgs/Devices/mouse-alt.svg";
+import MouseButtons from "./svgs/Devices/mouse-buttons.svg";
+import MouseEdge from "./svgs/Devices/mouse-edge.svg";
+import MouseNarrow from "./svgs/Devices/mouse-narrow.svg";
+import MouseScroll from "./svgs/Devices/mouse-scroll.svg";
+import MouseSmooth from "./svgs/Devices/mouse-smooth.svg";
+import Mouse from "./svgs/Devices/mouse.svg";
+import Plug from "./svgs/Devices/plug.svg";
+import PowerBank from "./svgs/Devices/power-bank.svg";
+import PrinterAlt from "./svgs/Devices/printer-alt.svg";
+import Printer from "./svgs/Devices/printer.svg";
+import Projector from "./svgs/Devices/projector.svg";
+import Server from "./svgs/Devices/server.svg";
+import SimcardAlt from "./svgs/Devices/simcard-alt.svg";
+import SimcardSlash from "./svgs/Devices/simcard-slash.svg";
+import Simcard from "./svgs/Devices/simcard.svg";
+import TabletAlt from "./svgs/Devices/tablet-alt.svg";
+import TabletNotchAlt from "./svgs/Devices/tablet-notch-alt.svg";
+import TabletNotch from "./svgs/Devices/tablet-notch.svg";
+import Tablet from "./svgs/Devices/tablet.svg";
+import TvAlt from "./svgs/Devices/tv-alt.svg";
+import TvStand from "./svgs/Devices/tv-stand.svg";
+import Tv from "./svgs/Devices/tv.svg";
+import UsbFlashDriveAlt1 from "./svgs/Devices/usb-flash-drive-alt-1.svg";
+import UsbFlashDrive from "./svgs/Devices/usb-flash-drive.svg";
+import WatchAltRound from "./svgs/Devices/watch-alt-round.svg";
+import WatchAlt from "./svgs/Devices/watch-alt.svg";
+import WatchTilt from "./svgs/Devices/watch-tilt.svg";
+import Watch from "./svgs/Devices/watch.svg";
+import WebcamAlt from "./svgs/Devices/webcam-alt.svg";
+import WebcamEye from "./svgs/Devices/webcam-eye.svg";
+import WebcamSlashAlt from "./svgs/Devices/webcam-slash-alt.svg";
+import WebcamSlash from "./svgs/Devices/webcam-slash.svg";
+import WebcamSquare from "./svgs/Devices/webcam-square.svg";
+import Webcam from "./svgs/Devices/webcam.svg";
+import Weight from "./svgs/Devices/weight.svg";
+import BagShopping from "./svgs/Ecommerce/bag-shopping.svg";
+import BagsShopping from "./svgs/Ecommerce/bags-shopping.svg";
+import Balloon from "./svgs/Ecommerce/balloon.svg";
+import BasketShoppingAlt from "./svgs/Ecommerce/basket-shopping-alt.svg";
+import BasketShopping from "./svgs/Ecommerce/basket-shopping.svg";
+import Bookmark from "./svgs/Ecommerce/bookmark.svg";
+import CartArrowDown from "./svgs/Ecommerce/cart-arrow-down.svg";
+import CartArrowUp from "./svgs/Ecommerce/cart-arrow-up.svg";
+import CartCheck from "./svgs/Ecommerce/cart-check.svg";
+import CartMinus from "./svgs/Ecommerce/cart-minus.svg";
+import CartPlus from "./svgs/Ecommerce/cart-plus.svg";
+import CartShoppingFast from "./svgs/Ecommerce/cart-shopping-fast.svg";
+import CartShopping from "./svgs/Ecommerce/cart-shopping.svg";
+import CartXmark from "./svgs/Ecommerce/cart-xmark.svg";
+import GemAlt from "./svgs/Ecommerce/gem-alt.svg";
+import Gem from "./svgs/Ecommerce/gem.svg";
+import GiftAlt from "./svgs/Ecommerce/gift-alt.svg";
+import GiftCard from "./svgs/Ecommerce/gift-card.svg";
+import Gift from "./svgs/Ecommerce/gift.svg";
+import MobileSignalOut from "./svgs/Ecommerce/mobile-signal-out.svg";
+import MobileSignal from "./svgs/Ecommerce/mobile-signal.svg";
+import NfcSymbol from "./svgs/Ecommerce/nfc-symbol.svg";
+import StarExclamation from "./svgs/Ecommerce/star-exclamation.svg";
+import Star from "./svgs/Ecommerce/star.svg";
+import Trophy from "./svgs/Ecommerce/trophy.svg";
 import Bandage from "./svgs/Editing/bandage.svg";
 import Brush from "./svgs/Editing/brush.svg";
 import CircleDashed from "./svgs/Editing/circle-dashed.svg";
@@ -579,7 +723,7 @@ import CircleXmark from "./svgs/Editing/circle-xmark.svg";
 import Command from "./svgs/Editing/command.svg";
 import CropSimple from "./svgs/Editing/crop-simple.svg";
 import Crop from "./svgs/Editing/crop.svg";
-import Cube from "./svgs/Editing/cube.svg";
+import CubeShort from "./svgs/Editing/cube-short.svg";
 import Dash from "./svgs/Editing/dash.svg";
 import DeleteLeft from "./svgs/Editing/delete-left.svg";
 import DeleteRight from "./svgs/Editing/delete-right.svg";
@@ -679,6 +823,27 @@ import WandMagicSparkles from "./svgs/Editing/wand-magic-sparkles.svg";
 import WandMagic from "./svgs/Editing/wand-magic.svg";
 import XmarkLarge from "./svgs/Editing/xmark-large.svg";
 import Xmark from "./svgs/Editing/xmark.svg";
+import Atom from "./svgs/Education/atom.svg";
+import AwardAlt from "./svgs/Education/award-alt.svg";
+import Award from "./svgs/Education/award.svg";
+import BackpackAlt from "./svgs/Education/backpack-alt.svg";
+import Backpack from "./svgs/Education/backpack.svg";
+import BookOpen from "./svgs/Education/book-open.svg";
+import CompassDrafting from "./svgs/Education/compass-drafting.svg";
+import Dna from "./svgs/Education/dna.svg";
+import Glasses from "./svgs/Education/glasses.svg";
+import GraduationHatAlt from "./svgs/Education/graduation-hat-alt.svg";
+import GraduationHatBack from "./svgs/Education/graduation-hat-back.svg";
+import GraduationHatFlip from "./svgs/Education/graduation-hat-flip.svg";
+import GraduationHatFront from "./svgs/Education/graduation-hat-front.svg";
+import LayerGroup from "./svgs/Education/layer-group.svg";
+import MedalAlt from "./svgs/Education/medal-alt.svg";
+import Medal from "./svgs/Education/medal.svg";
+import Notes from "./svgs/Education/notes.svg";
+import RulerTraingle from "./svgs/Education/ruler-traingle.svg";
+import Ruler from "./svgs/Education/ruler.svg";
+import ScreenUsers from "./svgs/Education/screen-users.svg";
+import Swatchbook from "./svgs/Education/swatchbook.svg";
 import BatteryBoltAlt from "./svgs/Energy/battery-bolt-alt.svg";
 import BatteryBolt from "./svgs/Energy/battery-bolt.svg";
 import BatteryEmpty from "./svgs/Energy/battery-empty.svg";
@@ -708,6 +873,7 @@ import CloudSlash from "./svgs/Energy/cloud-slash.svg";
 import CloudWired from "./svgs/Energy/cloud-wired.svg";
 import CloudXmark from "./svgs/Energy/cloud-xmark.svg";
 import FlipForwardEnergy from "./svgs/Energy/flip-forward-energy.svg";
+import GlobeAlt from "./svgs/Energy/globe-alt.svg";
 import Heat from "./svgs/Energy/heat.svg";
 import LightbulbAlt from "./svgs/Energy/lightbulb-alt.svg";
 import LightbulbExclamationAlt from "./svgs/Energy/lightbulb-exclamation-alt.svg";
@@ -747,6 +913,256 @@ import WifiSlash from "./svgs/Energy/wifi-slash.svg";
 import WifiWeak from "./svgs/Energy/wifi-weak.svg";
 import Wifi from "./svgs/Energy/wifi.svg";
 import Wind from "./svgs/Energy/wind.svg";
+import FileArrowUpBlank from "./svgs/Files/File-arrow-up-blank.svg";
+import BoxArchive from "./svgs/Files/box-archive.svg";
+import ClipboardArrowDown from "./svgs/Files/clipboard-arrow-down.svg";
+import ClipboardArrowUp from "./svgs/Files/clipboard-arrow-up.svg";
+import ClipboardAttachment from "./svgs/Files/clipboard-attachment.svg";
+import ClipboardListAlt from "./svgs/Files/clipboard-list-alt.svg";
+import ClipboardList from "./svgs/Files/clipboard-list.svg";
+import ClipboardMinus from "./svgs/Files/clipboard-minus.svg";
+import ClipboardPlus from "./svgs/Files/clipboard-plus.svg";
+import ClipboardTextAlt from "./svgs/Files/clipboard-text-alt.svg";
+import ClipboardText from "./svgs/Files/clipboard-text.svg";
+import ClipboardUser from "./svgs/Files/clipboard-user.svg";
+import ClipboardXmark from "./svgs/Files/clipboard-xmark.svg";
+import Clipboard from "./svgs/Files/clipboard.svg";
+import Clone from "./svgs/Files/clone.svg";
+import FileAlt from "./svgs/Files/file-alt.svg";
+import FileArrowDownBlank from "./svgs/Files/file-arrow-down-blank.svg";
+import FileArrowDownDoc from "./svgs/Files/file-arrow-down-doc.svg";
+import FileArrowDown from "./svgs/Files/file-arrow-down.svg";
+import FileArrowLeft from "./svgs/Files/file-arrow-left.svg";
+import FileArrowRight from "./svgs/Files/file-arrow-right.svg";
+import FileArrowUpDoc from "./svgs/Files/file-arrow-up-doc.svg";
+import FileArrowUp from "./svgs/Files/file-arrow-up.svg";
+import FileBlockBlank from "./svgs/Files/file-block-blank.svg";
+import FileBlockDoc from "./svgs/Files/file-block-doc.svg";
+import FileBlock from "./svgs/Files/file-block.svg";
+import FileBookmarkBlank from "./svgs/Files/file-bookmark-blank.svg";
+import FileBookmarkDoc from "./svgs/Files/file-bookmark-doc.svg";
+import FileBookmark from "./svgs/Files/file-bookmark.svg";
+import FileChartColumn from "./svgs/Files/file-chart-column.svg";
+import FileCheckBlank from "./svgs/Files/file-check-blank.svg";
+import FileCheckDoc from "./svgs/Files/file-check-doc.svg";
+import FileCheck from "./svgs/Files/file-check.svg";
+import FileCode from "./svgs/Files/file-code.svg";
+import FileCopy from "./svgs/Files/file-copy.svg";
+import FileDashedLine from "./svgs/Files/file-dashed-line.svg";
+import FileDollarAlt from "./svgs/Files/file-dollar-alt.svg";
+import FileDollar from "./svgs/Files/file-dollar.svg";
+import FileExclamationBlank from "./svgs/Files/file-exclamation-blank.svg";
+import FileExclamationDoc from "./svgs/Files/file-exclamation-doc.svg";
+import FileExclamation from "./svgs/Files/file-exclamation.svg";
+import FileGraph from "./svgs/Files/file-graph.svg";
+import FileHeartBlack from "./svgs/Files/file-heart-black.svg";
+import FileHeartDoc from "./svgs/Files/file-heart-doc.svg";
+import FileHeart from "./svgs/Files/file-heart.svg";
+import FileHorizontal from "./svgs/Files/file-horizontal.svg";
+import FileInfoBlank from "./svgs/Files/file-info-blank.svg";
+import FileInfoDoc from "./svgs/Files/file-info-doc.svg";
+import FileInfo from "./svgs/Files/file-info.svg";
+import FileLink from "./svgs/Files/file-link.svg";
+import FileMinusBlank from "./svgs/Files/file-minus-blank.svg";
+import FileMinusDoc from "./svgs/Files/file-minus-doc.svg";
+import FileMinus from "./svgs/Files/file-minus.svg";
+import FilePencilBlank from "./svgs/Files/file-pencil-blank.svg";
+import FilePencilDoc from "./svgs/Files/file-pencil-doc.svg";
+import FilePencil from "./svgs/Files/file-pencil.svg";
+import FilePlusBlank from "./svgs/Files/file-plus-blank.svg";
+import FilePlusDoc from "./svgs/Files/file-plus-doc.svg";
+import FilePlus from "./svgs/Files/file-plus.svg";
+import FileQuestionBlank from "./svgs/Files/file-question-blank.svg";
+import FileQuestionDoc from "./svgs/Files/file-question-doc.svg";
+import FileQuestion from "./svgs/Files/file-question.svg";
+import FileRedoBlank from "./svgs/Files/file-redo-blank.svg";
+import FileRedoDoc from "./svgs/Files/file-redo-doc.svg";
+import FileRedo from "./svgs/Files/file-redo.svg";
+import FileSearchBlank from "./svgs/Files/file-search-blank.svg";
+import FileSearchDoc from "./svgs/Files/file-search-doc.svg";
+import FileSearch from "./svgs/Files/file-search.svg";
+import FileShredder from "./svgs/Files/file-shredder.svg";
+import FileSlash from "./svgs/Files/file-slash.svg";
+import FileUser from "./svgs/Files/file-user.svg";
+import FileVertical from "./svgs/Files/file-vertical.svg";
+import FileWired from "./svgs/Files/file-wired.svg";
+import FileXmarkBlank from "./svgs/Files/file-xmark-blank.svg";
+import FileXmarkDoc from "./svgs/Files/file-xmark-doc.svg";
+import FileXmark from "./svgs/Files/file-xmark.svg";
+import FileZipper from "./svgs/Files/file-zipper.svg";
+import FilesAltHorizontal from "./svgs/Files/files-alt-horizontal.svg";
+import FilesHorizontal from "./svgs/Files/files-horizontal.svg";
+import FilesVertical from "./svgs/Files/files-vertical.svg";
+import Files from "./svgs/Files/files.svg";
+import FloppyDisk from "./svgs/Files/floppy-disk.svg";
+import FolderArrowDown from "./svgs/Files/folder-arrow-down.svg";
+import FolderArrowLeft from "./svgs/Files/folder-arrow-left.svg";
+import FolderArrowRight from "./svgs/Files/folder-arrow-right.svg";
+import FolderArrowUp from "./svgs/Files/folder-arrow-up.svg";
+import FolderBlock from "./svgs/Files/folder-block.svg";
+import FolderCheck from "./svgs/Files/folder-check.svg";
+import FolderExclamation from "./svgs/Files/folder-exclamation.svg";
+import FolderHeart from "./svgs/Files/folder-heart.svg";
+import FolderImage from "./svgs/Files/folder-image.svg";
+import FolderInfo from "./svgs/Files/folder-info.svg";
+import FolderLock from "./svgs/Files/folder-lock.svg";
+import FolderMinus from "./svgs/Files/folder-minus.svg";
+import FolderPlus from "./svgs/Files/folder-plus.svg";
+import FolderQuestion from "./svgs/Files/folder-question.svg";
+import FolderSearch from "./svgs/Files/folder-search.svg";
+import FolderShield from "./svgs/Files/folder-shield.svg";
+import FolderUser from "./svgs/Files/folder-user.svg";
+import FolderXmark from "./svgs/Files/folder-xmark.svg";
+import Folder from "./svgs/Files/folder.svg";
+import Memo from "./svgs/Files/memo.svg";
+import Airplay from "./svgs/Film & Video/airplay.svg";
+import AlbumCollection from "./svgs/Film & Video/album-collection.svg";
+import Album from "./svgs/Film & Video/album.svg";
+import AudioDescriptionSlasg from "./svgs/Film & Video/audio-description-slasg.svg";
+import AudioDescription from "./svgs/Film & Video/audio-description.svg";
+import Boombox from "./svgs/Film & Video/boombox.svg";
+import Buffer from "./svgs/Film & Video/buffer.svg";
+import Camcorder from "./svgs/Film & Video/camcorder.svg";
+import CassetteTape from "./svgs/Film & Video/cassette-tape.svg";
+import Cctv from "./svgs/Film & Video/cctv.svg";
+import CircleMicrophone from "./svgs/Film & Video/circle-microphone.svg";
+import CircleVideo from "./svgs/Film & Video/circle-video.svg";
+import CircleWaveformLines from "./svgs/Film & Video/circle-waveform-lines.svg";
+import Circle from "./svgs/Film & Video/circle.svg";
+import ClapperboardPlay from "./svgs/Film & Video/clapperboard-play.svg";
+import Clapperboard from "./svgs/Film & Video/clapperboard.svg";
+import Clarinet from "./svgs/Film & Video/clarinet.svg";
+import ClosedCaptioning from "./svgs/Film & Video/closed-captioning.svg";
+import CloudMusic from "./svgs/Film & Video/cloud-music.svg";
+import CompactDisc from "./svgs/Film & Video/compact-disc.svg";
+import DialHigh from "./svgs/Film & Video/dial-high.svg";
+import DialLow from "./svgs/Film & Video/dial-low.svg";
+import DialMax from "./svgs/Film & Video/dial-max.svg";
+import DialMedLow from "./svgs/Film & Video/dial-med-low.svg";
+import DialMed from "./svgs/Film & Video/dial-med.svg";
+import DialMin from "./svgs/Film & Video/dial-min.svg";
+import DialOff from "./svgs/Film & Video/dial-off.svg";
+import Dial from "./svgs/Film & Video/dial.svg";
+import DiscDrive from "./svgs/Film & Video/disc-drive.svg";
+import Drum from "./svgs/Film & Video/drum.svg";
+import FileAudio from "./svgs/Film & Video/file-audio.svg";
+import FilmAlt from "./svgs/Film & Video/film-alt.svg";
+import FilmSlash from "./svgs/Film & Video/film-slash.svg";
+import Film from "./svgs/Film & Video/film.svg";
+import Flute from "./svgs/Film & Video/flute.svg";
+import Frame from "./svgs/Film & Video/frame.svg";
+import HighDefinition from "./svgs/Film & Video/high-definition.svg";
+import ListMusic from "./svgs/Film & Video/list-music.svg";
+import Mp3Player from "./svgs/Film & Video/mp3-player.svg";
+import MusicNoteSlash from "./svgs/Film & Video/music-note-slash.svg";
+import MusicNote from "./svgs/Film & Video/music-note.svg";
+import Music from "./svgs/Film & Video/music.svg";
+import Piano from "./svgs/Film & Video/piano.svg";
+import Radio from "./svgs/Film & Video/radio.svg";
+import Screencast from "./svgs/Film & Video/screencast.svg";
+import SlidersSimple from "./svgs/Film & Video/sliders-simple.svg";
+import SlidersUp from "./svgs/Film & Video/sliders-up.svg";
+import Sliders from "./svgs/Film & Video/sliders.svg";
+import SpeakerAlt from "./svgs/Film & Video/speaker-alt.svg";
+import Speaker from "./svgs/Film & Video/speaker.svg";
+import SquareRss from "./svgs/Film & Video/square-rss.svg";
+import SquareSlidersVertical from "./svgs/Film & Video/square-sliders-vertical.svg";
+import SquareSliders from "./svgs/Film & Video/square-sliders.svg";
+import StarSharpHalf from "./svgs/Film & Video/star-sharp-half.svg";
+import StarSharp from "./svgs/Film & Video/star-sharp.svg";
+import TriangleInstrument from "./svgs/Film & Video/triangle-instrument.svg";
+import VideoArrowDownLeft from "./svgs/Film & Video/video-arrow-down-left.svg";
+import VideoArrowUpRight from "./svgs/Film & Video/video-arrow-up-right.svg";
+import VideoPlus from "./svgs/Film & Video/video-plus.svg";
+import VideoSlash from "./svgs/Film & Video/video-slash.svg";
+import Video from "./svgs/Film & Video/video.svg";
+import Bat from "./svgs/Helloween/bat.svg";
+import Bones from "./svgs/Helloween/bones.svg";
+import BookSparkles from "./svgs/Helloween/book-sparkles.svg";
+import Broom from "./svgs/Helloween/broom.svg";
+import CandleHolder from "./svgs/Helloween/candle-holder.svg";
+import CandleStand from "./svgs/Helloween/candle-stand.svg";
+import CandyAlt from "./svgs/Helloween/candy-alt.svg";
+import CandyCorn from "./svgs/Helloween/candy-corn.svg";
+import Candy from "./svgs/Helloween/candy.svg";
+import Cat from "./svgs/Helloween/cat.svg";
+import Cauldron from "./svgs/Helloween/cauldron.svg";
+import CleaverBlood from "./svgs/Helloween/cleaver-blood.svg";
+import Cleaver from "./svgs/Helloween/cleaver.svg";
+import CoffinCross from "./svgs/Helloween/coffin-cross.svg";
+import CoffinOpen from "./svgs/Helloween/coffin-open.svg";
+import Coffin from "./svgs/Helloween/coffin.svg";
+import Crow from "./svgs/Helloween/crow.svg";
+import FlaskRoundBlank from "./svgs/Helloween/flask-round-blank.svg";
+import FlaskRoundPotion from "./svgs/Helloween/flask-round-potion.svg";
+import Frankenstein from "./svgs/Helloween/frankenstein.svg";
+import GhostSmile from "./svgs/Helloween/ghost-smile.svg";
+import Ghost from "./svgs/Helloween/ghost.svg";
+import HalloweenCalendarAlt from "./svgs/Helloween/halloween-calendar-alt.svg";
+import HalloweenCalendarBat from "./svgs/Helloween/halloween-calendar-bat.svg";
+import HalloweenCalendar from "./svgs/Helloween/halloween-calendar.svg";
+import HalloweenDecorations from "./svgs/Helloween/halloween-decorations.svg";
+import HalloweenMailAlt from "./svgs/Helloween/halloween-mail-alt.svg";
+import HalloweenMail from "./svgs/Helloween/halloween-mail.svg";
+import HatWitch from "./svgs/Helloween/hat-witch.svg";
+import HatWizardAlt from "./svgs/Helloween/hat-wizard-alt.svg";
+import HatWizard from "./svgs/Helloween/hat-wizard.svg";
+import HockeyMask from "./svgs/Helloween/hockey-mask.svg";
+import JackOLantern from "./svgs/Helloween/jack-o-lantern.svg";
+import KnifeKitchen from "./svgs/Helloween/knife-kitchen.svg";
+import Lollipop from "./svgs/Helloween/lollipop.svg";
+import Mask from "./svgs/Helloween/mask.svg";
+import Potion from "./svgs/Helloween/potion.svg";
+import Scarecrow from "./svgs/Helloween/scarecrow.svg";
+import Scythe from "./svgs/Helloween/scythe.svg";
+import SipderWeb from "./svgs/Helloween/sipder-web.svg";
+import SkullAlt from "./svgs/Helloween/skull-alt.svg";
+import SkullCute from "./svgs/Helloween/skull-cute.svg";
+import Skull from "./svgs/Helloween/skull.svg";
+import Sparkles from "./svgs/Helloween/sparkles.svg";
+import SpiderWidow from "./svgs/Helloween/spider-widow.svg";
+import Spider from "./svgs/Helloween/spider.svg";
+import ToiletPaperBlank from "./svgs/Helloween/toilet-paper-blank.svg";
+import ToiletPaperDots from "./svgs/Helloween/toilet-paper-dots.svg";
+import TombstoneBlank from "./svgs/Helloween/tombstone-blank.svg";
+import Tombstone from "./svgs/Helloween/tombstone.svg";
+import WandSparkles from "./svgs/Helloween/wand-sparkles.svg";
+import Wand from "./svgs/Helloween/wand.svg";
+import Angel from "./svgs/Holydays/angel.svg";
+import CakeChristmas from "./svgs/Holydays/cake-christmas.svg";
+import CandyCane from "./svgs/Holydays/candy-cane.svg";
+import ChirstmasStar from "./svgs/Holydays/chirstmas-star.svg";
+import ChristmasBag from "./svgs/Holydays/christmas-bag.svg";
+import ChristmasCandle from "./svgs/Holydays/christmas-candle.svg";
+import ChristmasStar from "./svgs/Holydays/christmas-star.svg";
+import CookieMan from "./svgs/Holydays/cookie-man.svg";
+import Cookie from "./svgs/Holydays/cookie.svg";
+import Cookies from "./svgs/Holydays/cookies.svg";
+import Fireplace from "./svgs/Holydays/fireplace.svg";
+import LightsHoliday from "./svgs/Holydays/lights-holiday.svg";
+import MenorahAlt from "./svgs/Holydays/menorah-alt.svg";
+import MenorahCurve from "./svgs/Holydays/menorah-curve.svg";
+import Menorah from "./svgs/Holydays/menorah.svg";
+import Mistletoe from "./svgs/Holydays/mistletoe.svg";
+import OrnamentAlt from "./svgs/Holydays/ornament-alt.svg";
+import Ornament from "./svgs/Holydays/ornament.svg";
+import RockingHorse from "./svgs/Holydays/rocking-horse.svg";
+import SantaClaus from "./svgs/Holydays/santa-claus.svg";
+import SantaGlove from "./svgs/Holydays/santa-glove.svg";
+import SantaHatAlt from "./svgs/Holydays/santa-hat-alt.svg";
+import SantaHat from "./svgs/Holydays/santa-hat.svg";
+import SkatesAlt from "./svgs/Holydays/skates-alt.svg";
+import Skates from "./svgs/Holydays/skates.svg";
+import Sleigh from "./svgs/Holydays/sleigh.svg";
+import SnowmanHead from "./svgs/Holydays/snowman-head.svg";
+import Snowman from "./svgs/Holydays/snowman.svg";
+import Stocking from "./svgs/Holydays/stocking.svg";
+import TeddyBear from "./svgs/Holydays/teddy-bear.svg";
+import TreeDecoratedAlt from "./svgs/Holydays/tree-decorated-alt.svg";
+import TreeDecorated from "./svgs/Holydays/tree-decorated.svg";
+import TreePlus from "./svgs/Holydays/tree-plus.svg";
+import Tree from "./svgs/Holydays/tree.svg";
+import Wreath from "./svgs/Holydays/wreath.svg";
 import Aperture from "./svgs/Images/aperture.svg";
 import Colors from "./svgs/Images/colors.svg";
 import HexagonImage from "./svgs/Images/hexagon-image.svg";
@@ -768,7 +1184,6 @@ import CircleParkingSplash from "./svgs/Map/circle-parking-splash.svg";
 import CircleParking from "./svgs/Map/circle-parking.svg";
 import DiamondTurnRight from "./svgs/Map/diamond-turn-right.svg";
 import Flag from "./svgs/Map/flag.svg";
-import GlobeAlt from "./svgs/Map/globe-alt.svg";
 import GlobeStand from "./svgs/Map/globe-stand.svg";
 import Globe from "./svgs/Map/globe.svg";
 import LifeRing from "./svgs/Map/life-ring.svg";
@@ -806,6 +1221,62 @@ import TrafficLightGo from "./svgs/Map/traffic-light-go.svg";
 import TrafficLightSlow from "./svgs/Map/traffic-light-slow.svg";
 import TrafficLightStop from "./svgs/Map/traffic-light-stop.svg";
 import TrafficLight from "./svgs/Map/traffic-light.svg";
+import BackwardFast from "./svgs/Media playback/backward-fast.svg";
+import BackwardStep from "./svgs/Media playback/backward-step.svg";
+import Backward from "./svgs/Media playback/backward.svg";
+import CirclePause from "./svgs/Media playback/circle-pause.svg";
+import CirclePlay from "./svgs/Media playback/circle-play.svg";
+import CircleStop from "./svgs/Media playback/circle-stop.svg";
+import CompressArrowWide from "./svgs/Media playback/compress-arrow-wide.svg";
+import CompressArrow from "./svgs/Media playback/compress-arrow.svg";
+import CompressObject from "./svgs/Media playback/compress-object.svg";
+import CompressWide from "./svgs/Media playback/compress-wide.svg";
+import Compress from "./svgs/Media playback/compress.svg";
+import ExpandAlt from "./svgs/Media playback/expand-alt.svg";
+import ExpandFull from "./svgs/Media playback/expand-full.svg";
+import ExpandObject from "./svgs/Media playback/expand-object.svg";
+import ExpandWide from "./svgs/Media playback/expand-wide.svg";
+import Expand from "./svgs/Media playback/expand.svg";
+import ForwardStep from "./svgs/Media playback/forward-step.svg";
+import Pause from "./svgs/Media playback/pause.svg";
+import PlayPause from "./svgs/Media playback/play-pause.svg";
+import Play from "./svgs/Media playback/play.svg";
+import PlusMinus from "./svgs/Media playback/plus-minus.svg";
+import Scrubber from "./svgs/Media playback/scrubber.svg";
+import VolumeMax from "./svgs/Media playback/volume-max.svg";
+import VolumeMin from "./svgs/Media playback/volume-min.svg";
+import VolumeMinus from "./svgs/Media playback/volume-minus.svg";
+import VolumeOff from "./svgs/Media playback/volume-off.svg";
+import VolumePlus from "./svgs/Media playback/volume-plus.svg";
+import VolumeXmark from "./svgs/Media playback/volume-xmark.svg";
+import BriefcaseMedical from "./svgs/Medical + health/briefcase-medical.svg";
+import Capsule from "./svgs/Medical + health/capsule.svg";
+import CircleRadiation from "./svgs/Medical + health/circle-radiation.svg";
+import EyeAlt from "./svgs/Medical + health/eye-alt.svg";
+import EyeSlashAlt from "./svgs/Medical + health/eye-slash-alt.svg";
+import EyeSlash from "./svgs/Medical + health/eye-slash.svg";
+import Eye from "./svgs/Medical + health/eye.svg";
+import HeartAlt from "./svgs/Medical + health/heart-alt.svg";
+import Heart from "./svgs/Medical + health/heart.svg";
+import IdCardClip from "./svgs/Medical + health/id-card-clip.svg";
+import KitMedical from "./svgs/Medical + health/kit-medical.svg";
+import LaptopMedical from "./svgs/Medical + health/laptop-medical.svg";
+import MaskFace from "./svgs/Medical + health/mask-face.svg";
+import Microscope from "./svgs/Medical + health/microscope.svg";
+import MonitorHeartRate from "./svgs/Medical + health/monitor-heart-rate.svg";
+import MonitorMedical from "./svgs/Medical + health/monitor-medical.svg";
+import NoteMedical from "./svgs/Medical + health/note-medical.svg";
+import PrescriptionBottleMedical from "./svgs/Medical + health/prescription-bottle-medical.svg";
+import PrescriptionBottle from "./svgs/Medical + health/prescription-bottle.svg";
+import SquareMedical from "./svgs/Medical + health/square-Medical.svg";
+import SquareH from "./svgs/Medical + health/square-h.svg";
+import StaffSnake from "./svgs/Medical + health/staff-snake.svg";
+import SuitcaseMedical from "./svgs/Medical + health/suitcase-medical.svg";
+import Thermometer from "./svgs/Medical + health/thermometer.svg";
+import Vial from "./svgs/Medical + health/vial.svg";
+import VirusCovid from "./svgs/Medical + health/virus-covid.svg";
+import WavePulse from "./svgs/Medical + health/wave-pulse.svg";
+import WeightScale from "./svgs/Medical + health/weight-scale.svg";
 import AustralSign from "./svgs/Money/austral-sign.svg";
 import BadgeDollar from "./svgs/Money/badge-dollar.svg";
 import BadgePercent from "./svgs/Money/badge-percent.svg";
@@ -920,6 +1391,13 @@ import UserXmarkDefault from "./svgs/People/user-xmark-default.svg";
 import UserXmark from "./svgs/People/user-xmark.svg";
 import User from "./svgs/People/user.svg";
 import Users from "./svgs/People/users.svg";
+import Cloche from "./svgs/Restaurant/cloche.svg";
+import ForkKnife from "./svgs/Restaurant/fork-knife.svg";
+import ForkSpoon from "./svgs/Restaurant/fork-spoon.svg";
+import MartiniGlass from "./svgs/Restaurant/martini-glass.svg";
+import MugSauser from "./svgs/Restaurant/mug-sauser.svg";
+import RestaurantMenu from "./svgs/Restaurant/restaurant-menu.svg";
+import WineGlass from "./svgs/Restaurant/wine-glass.svg";
 import Ban from "./svgs/Security/ban.svg";
 import BookSection from "./svgs/Security/book-section.svg";
 import BugSlash from "./svgs/Security/bug-slash.svg";
@@ -968,6 +1446,68 @@ import Unlock from "./svgs/Security/unlock.svg";
 import UserLockAlt from "./svgs/Security/user-lock-alt.svg";
 import UserLockDefault from "./svgs/Security/user-lock-default.svg";
 import UserLock from "./svgs/Security/user-lock.svg";
+import Figma from "./svgs/Shapes/Figma.svg";
+import Square from "./svgs/Shapes/Square.svg";
+import BallPile from "./svgs/Shapes/ball-pile.svg";
+import Box from "./svgs/Shapes/box.svg";
+import CircleHalf from "./svgs/Shapes/circle-half.svg";
+import CircleHeart from "./svgs/Shapes/circle-heart.svg";
+import CircleQuarters from "./svgs/Shapes/circle-quarters.svg";
+import CircleThreeQuarters from "./svgs/Shapes/circle-three-quarters.svg";
+import Club from "./svgs/Shapes/club.svg";
+import Crown from "./svgs/Shapes/crown.svg";
+import CubeAlt from "./svgs/Shapes/cube-alt.svg";
+import Cube from "./svgs/Shapes/cube.svg";
+import Dazzle from "./svgs/Shapes/dazzle.svg";
+import DazzlingStar from "./svgs/Shapes/dazzling-star.svg";
+import DiamondXmark from "./svgs/Shapes/diamond-xmark.svg";
+import Diamond from "./svgs/Shapes/diamond.svg";
+import DiceFive from "./svgs/Shapes/dice-five.svg";
+import DiceFour from "./svgs/Shapes/dice-four.svg";
+import DiceOne from "./svgs/Shapes/dice-one.svg";
+import DiceSix from "./svgs/Shapes/dice-six.svg";
+import DiceThree from "./svgs/Shapes/dice-three.svg";
+import DiceTwo from "./svgs/Shapes/dice-two.svg";
+import HeartCrack from "./svgs/Shapes/heart-crack.svg";
+import HeartHalfStroke from "./svgs/Shapes/heart-half-stroke.svg";
+import HeartHalf from "./svgs/Shapes/heart-half.svg";
+import HexagonAlt from "./svgs/Shapes/hexagon-alt.svg";
+import Hexagon from "./svgs/Shapes/hexagon.svg";
+import LinesLeaning from "./svgs/Shapes/lines-leaning.svg";
+import Octagon from "./svgs/Shapes/octagon.svg";
+import Pentagon from "./svgs/Shapes/pentagon.svg";
+import RectangleVertical from "./svgs/Shapes/rectangle-vertical.svg";
+import RectangleWide from "./svgs/Shapes/rectangle-wide.svg";
+import Rhombus from "./svgs/Shapes/rhombus.svg";
+import Seal from "./svgs/Shapes/seal.svg";
+import Shapes from "./svgs/Shapes/shapes.svg";
+import SquareDazzle from "./svgs/Shapes/square-dazzle.svg";
+import SquareQuarters from "./svgs/Shapes/square-quarters.svg";
+import SquareRing from "./svgs/Shapes/square-ring.svg";
+import SquareSmall from "./svgs/Shapes/square-small.svg";
+import StarFourWide from "./svgs/Shapes/star-four-wide.svg";
+import StarFour from "./svgs/Shapes/star-four.svg";
+import StarHalfStroke from "./svgs/Shapes/star-half-stroke.svg";
+import StarSix from "./svgs/Shapes/star-six.svg";
+import Stars from "./svgs/Shapes/stars.svg";
+import TicketSimple from "./svgs/Shapes/ticket-simple.svg";
+import Triangle from "./svgs/Shapes/triangle.svg";
+import ArrowSpin from "./svgs/Spinners/arrow-spin.svg";
+import Asterisk from "./svgs/Spinners/asterisk.svg";
+import Badge from "./svgs/Spinners/badge.svg";
+import CertificateCheck from "./svgs/Spinners/certificate-check.svg";
+import Certificate from "./svgs/Spinners/certificate.svg";
+import CircleNotch from "./svgs/Spinners/circle-notch.svg";
+import Compass from "./svgs/Spinners/compass.svg";
+import CrosshairSimple from "./svgs/Spinners/crosshair-simple.svg";
+import Crosshair from "./svgs/Spinners/crosshair.svg";
+import GearAlt from "./svgs/Spinners/gear-alt.svg";
+import Gear from "./svgs/Spinners/gear.svg";
+import Loader from "./svgs/Spinners/loader.svg";
+import Palette from "./svgs/Spinners/palette.svg";
+import SlashFlip from "./svgs/Spinners/slash-flip.svg";
+import Slash from "./svgs/Spinners/slash.svg";
+import TurnOff from "./svgs/Spinners/turn-off.svg";
 import AlignAlt from "./svgs/Text Formatting/align-alt.svg";
 import AlignCenterAlt from "./svgs/Text Formatting/align-center-alt.svg";
 import AlignCenterJustify from "./svgs/Text Formatting/align-center-justify.svg";
@@ -1117,6 +1657,60 @@ import Snooze from "./svgs/Time/snooze.svg";
 import StopwatchTime from "./svgs/Time/stopwatch-time.svg";
 import Stopwatch from "./svgs/Time/stopwatch.svg";
 import Timer from "./svgs/Time/timer.svg";
+import CircleHeat from "./svgs/Weather/circle-heat.svg";
+import CloudArrowDown from "./svgs/Weather/cloud-arrow-down.svg";
+import CloudBolt from "./svgs/Weather/cloud-bolt.svg";
+import CloudFog from "./svgs/Weather/cloud-fog.svg";
+import CloudMoon from "./svgs/Weather/cloud-moon.svg";
+import CloudRainAlt from "./svgs/Weather/cloud-rain-alt.svg";
+import CloudRainThunder from "./svgs/Weather/cloud-rain-thunder.svg";
+import CloudRain from "./svgs/Weather/cloud-rain.svg";
+import CloudRainbow from "./svgs/Weather/cloud-rainbow.svg";
+import CloudShowers from "./svgs/Weather/cloud-showers.svg";
+import CloudSleet from "./svgs/Weather/cloud-sleet.svg";
+import CloudSnowAlt from "./svgs/Weather/cloud-snow-alt.svg";
+import CloudSnow from "./svgs/Weather/cloud-snow.svg";
+import CloudSunAlt from "./svgs/Weather/cloud-sun-alt.svg";
+import CloudSun from "./svgs/Weather/cloud-sun.svg";
+import CloudUpArrow from "./svgs/Weather/cloud-up-arrow.svg";
+import Cloud from "./svgs/Weather/cloud.svg";
+import Clouds from "./svgs/Weather/clouds.svg";
+import DropletAlt from "./svgs/Weather/droplet-alt.svg";
+import DropletDegree from "./svgs/Weather/droplet-degree.svg";
+import DropletSlash from "./svgs/Weather/droplet-slash.svg";
+import Droplet from "./svgs/Weather/droplet.svg";
+import Droplets from "./svgs/Weather/droplets.svg";
+import Eclipse from "./svgs/Weather/eclipse.svg";
+import HeatAlt from "./svgs/Weather/heat-alt.svg";
+import HurricaneAlt from "./svgs/Weather/hurricane-alt.svg";
+import Hurricane from "./svgs/Weather/hurricane.svg";
+import Icicles from "./svgs/Weather/icicles.svg";
+import MoonCloud from "./svgs/Weather/moon-cloud.svg";
+import MoonStars from "./svgs/Weather/moon-stars.svg";
+import Rainbow from "./svgs/Weather/rainbow.svg";
+import SnowAlt from "./svgs/Weather/snow-alt.svg";
+import SnowBlowing from "./svgs/Weather/snow-blowing.svg";
+import SnowWide from "./svgs/Weather/snow-wide.svg";
+import Snow from "./svgs/Weather/snow.svg";
+import SunDust from "./svgs/Weather/sun-dust.svg";
+import SunHaze from "./svgs/Weather/sun-haze.svg";
+import Sunrise from "./svgs/Weather/sunrise.svg";
+import Sunset from "./svgs/Weather/sunset.svg";
+import TemperatureArrowDown from "./svgs/Weather/temperature-arrow-down.svg";
+import TemperatureArrowUp from "./svgs/Weather/temperature-arrow-up.svg";
+import TemperatureEmpty from "./svgs/Weather/temperature-empty.svg";
+import TemperatureFull from "./svgs/Weather/temperature-full.svg";
+import TemperatureHalf from "./svgs/Weather/temperature-half.svg";
+import TemperatureHigh from "./svgs/Weather/temperature-high.svg";
+import TemperatureList from "./svgs/Weather/temperature-list.svg";
+import TemperatureLow from "./svgs/Weather/temperature-low.svg";
+import TemperatureQuarter from "./svgs/Weather/temperature-quarter.svg";
+import TemperatureSnow from "./svgs/Weather/temperature-snow.svg";
+import TemperatureSun from "./svgs/Weather/temperature-sun.svg";
+import Umbrella from "./svgs/Weather/umbrella.svg";
+import WaterArrowDown from "./svgs/Weather/water-arrow-down.svg";
+import WaterArrowUp from "./svgs/Weather/water-arrow-up.svg";
+import Water from "./svgs/Weather/water.svg";
 
 export const icons = {
   circleExclamationCheck: CircleExclamationCheck,
@@ -1494,11 +2088,11 @@ export const icons = {
   chartLineUp: ChartLineUp,
   chartNetwork: ChartNetwork,
   chartPieAlt: ChartPieAlt,
-  chartPie: ChartPie,
+  chartPieFill: ChartPieFill,
   chartPyramid: ChartPyramid,
   chartRadar: ChartRadar,
   chartScatter3d: ChartScatter3d,
-  chartScatterBubble: ChartScatterBubble,
+  chartScatterBubble: ChartScatterBubble, 
   chartScatter: ChartScatter,
   chartSimpleHorizontal: ChartSimpleHorizontal,
   chartSimple: ChartSimple,
@@ -1512,7 +2106,7 @@ export const icons = {
   diagramNext: DiagramNext,
   diagramPredecessor: DiagramPredecessor,
   diagramPrevious: DiagramPrevious,
-  diagramProject: DiagramProject,
+  diagramProjectLong: DiagramProjectLong,
   diagramSankey: DiagramSankey,
   diagramSubtask: DiagramSubtask,
   diagramSuccessor: DiagramSuccessor,
@@ -1539,6 +2133,7 @@ export const icons = {
   codePullRequestClosed: CodePullRequestClosed,
   codePullRequest: CodePullRequest,
   code: Code,
+  diagramProject: DiagramProject,
   notdef: Notdef,
   rectangleCode: RectangleCode,
   rectangleTerminal: RectangleTerminal,
@@ -1689,6 +2284,148 @@ export const icons = {
   sendVerticle: SendVerticle,
   send: Send,
   voicemail: Voicemail,
+  airpodsAlt: AirpodsAlt,
+  airpods: Airpods,
+  cameraAlt: CameraAlt,
+  cameraOld: CameraOld,
+  cameraSlash: CameraSlash,
+  camera: Camera,
+  carBattery: CarBattery,
+  circuit: Circuit,
+  desktopComputer: DesktopComputer,
+  digitalCamera: DigitalCamera,
+  discAlt: DiscAlt,
+  disc: Disc,
+  drawingTablet: DrawingTablet,
+  flashlight: Flashlight,
+  floppyDiskAlt: FloppyDiskAlt,
+  gamingPadAlt: GamingPadAlt,
+  gamingPad: GamingPad,
+  gamingStick: GamingStick,
+  hardDrive: HardDrive,
+  headphonesAlt: HeadphonesAlt,
+  headphonesMic: HeadphonesMic,
+  headphonesSmooth: HeadphonesSmooth,
+  headphones: Headphones,
+  keyboardAlt: KeyboardAlt,
+  keyboardSpace: KeyboardSpace,
+  keyboard: Keyboard,
+  laptopAlt: LaptopAlt,
+  laptopArrowDownAlt: LaptopArrowDownAlt,
+  laptopArrowDown: LaptopArrowDown,
+  laptopArrowUpAlt: LaptopArrowUpAlt,
+  laptopArrowUp: LaptopArrowUp,
+  laptopButton: LaptopButton,
+  laptopCheckAlt: LaptopCheckAlt,
+  laptopCheck: LaptopCheck,
+  laptopCurve: LaptopCurve,
+  laptopDollar: LaptopDollar,
+  laptopExclamationAlt: LaptopExclamationAlt,
+  laptopExclamation: LaptopExclamation,
+  laptopLockAlt: LaptopLockAlt,
+  laptopLock: LaptopLock,
+  laptopRefreshAlt: LaptopRefreshAlt,
+  laptopRefresh: LaptopRefresh,
+  laptopSearchAlt: LaptopSearchAlt,
+  laptopSearch: LaptopSearch,
+  laptopShieldAlt: LaptopShieldAlt,
+  laptopShield: LaptopShield,
+  laptopSignalAlt: LaptopSignalAlt,
+  laptopSignal: LaptopSignal,
+  laptopWired: LaptopWired,
+  laptopXmarkAlt: LaptopXmarkAlt,
+  laptopXmark: LaptopXmark,
+  laptop: Laptop,
+  microchip: Microchip,
+  microphoneAltFull: MicrophoneAltFull,
+  microphoneAlt: MicrophoneAlt,
+  microphoneSlashAltFull: MicrophoneSlashAltFull,
+  microphoneSlashAlt: MicrophoneSlashAlt,
+  microphoneSlash: MicrophoneSlash,
+  microphone: Microphone,
+  mobileAlt: MobileAlt,
+  mobileBolt: MobileBolt,
+  mobileButtonAlt: MobileButtonAlt,
+  mobileButton: MobileButton,
+  mobileCheck: MobileCheck,
+  mobileDollar: MobileDollar,
+  mobileSlash: MobileSlash,
+  mobileXmark: MobileXmark,
+  mobile: Mobile,
+  modemAntina: ModemAntina,
+  modemBar: ModemBar,
+  modemSignals: ModemSignals,
+  modemTilt: ModemTilt,
+  modem: Modem,
+  monitorAlt: MonitorAlt,
+  monitorAppleAlt: MonitorAppleAlt,
+  monitorApple: MonitorApple,
+  monitorCurve: MonitorCurve,
+  monitorFloat: MonitorFloat,
+  monitorStandAlt: MonitorStandAlt,
+  monitorStand: MonitorStand,
+  monitor: Monitor,
+  mouseAlt: MouseAlt,
+  mouseButtons: MouseButtons,
+  mouseEdge: MouseEdge,
+  mouseNarrow: MouseNarrow,
+  mouseScroll: MouseScroll,
+  mouseSmooth: MouseSmooth,
+  mouse: Mouse,
+  plug: Plug,
+  powerBank: PowerBank,
+  printerAlt: PrinterAlt,
+  printer: Printer,
+  projector: Projector,
+  server: Server,
+  simcardAlt: SimcardAlt,
+  simcardSlash: SimcardSlash,
+  simcard: Simcard,
+  tabletAlt: TabletAlt,
+  tabletNotchAlt: TabletNotchAlt,
+  tabletNotch: TabletNotch,
+  tablet: Tablet,
+  tvAlt: TvAlt,
+  tvStand: TvStand,
+  tv: Tv,
+  usbFlashDriveAlt1: UsbFlashDriveAlt1,
+  usbFlashDrive: UsbFlashDrive,
+  watchAltRound: WatchAltRound,
+  watchAlt: WatchAlt,
+  watchTilt: WatchTilt,
+  watch: Watch,
+  webcamAlt: WebcamAlt,
+  webcamEye: WebcamEye,
+  webcamSlashAlt: WebcamSlashAlt,
+  webcamSlash: WebcamSlash,
+  webcamSquare: WebcamSquare,
+  webcam: Webcam,
+  weight: Weight,
+  bagShopping: BagShopping,
+  bagsShopping: BagsShopping,
+  balloon: Balloon,
+  basketShoppingAlt: BasketShoppingAlt,
+  basketShopping: BasketShopping,
+  bookmark: Bookmark,
+  cartArrowDown: CartArrowDown,
+  cartArrowUp: CartArrowUp,
+  cartCheck: CartCheck,
+  cartMinus: CartMinus,
+  cartPlus: CartPlus,
+  cartShoppingFast: CartShoppingFast,
+  cartShopping: CartShopping,
+  cartXmark: CartXmark,
+  gemAlt: GemAlt,
+  gem: Gem,
+  giftAlt: GiftAlt,
+  giftCard: GiftCard,
+  gift: Gift,
+  mobileSignalOut: MobileSignalOut,
+  mobileSignal: MobileSignal,
+  nfcSymbol: NfcSymbol,
+  starExclamation: StarExclamation,
+  star: Star,
+  trophy: Trophy,
   bandage: Bandage,
   brush: Brush,
   circleDashed: CircleDashed,
@@ -1701,7 +2438,7 @@ export const icons = {
   command: Command,
   cropSimple: CropSimple,
   crop: Crop,
-  cube: Cube,
+  cubeShort: CubeShort,
   dash: Dash,
   deleteLeft: DeleteLeft,
   deleteRight: DeleteRight,
@@ -1801,6 +2538,27 @@ export const icons = {
   wandMagic: WandMagic,
   xmarkLarge: XmarkLarge,
   xmark: Xmark,
+  atom: Atom,
+  awardAlt: AwardAlt,
+  award: Award,
+  backpackAlt: BackpackAlt,
+  backpack: Backpack,
+  bookOpen: BookOpen,
+  compassDrafting: CompassDrafting,
+  dna: Dna,
+  glasses: Glasses,
+  graduationHatAlt: GraduationHatAlt,
+  graduationHatBack: GraduationHatBack,
+  graduationHatFlip: GraduationHatFlip,
+  graduationHatFront: GraduationHatFront,
+  layerGroup: LayerGroup,
+  medalAlt: MedalAlt,
+  medal: Medal,
+  notes: Notes,
+  rulerTraingle: RulerTraingle,
+  ruler: Ruler,
+  screenUsers: ScreenUsers,
+  swatchbook: Swatchbook,
   batteryBoltAlt: BatteryBoltAlt,
   batteryBolt: BatteryBolt,
   batteryEmpty: BatteryEmpty,
@@ -1870,6 +2628,256 @@ export const icons = {
   wifiWeak: WifiWeak,
   wifi: Wifi,
   wind: Wind,
+  fileArrowUpBlank: FileArrowUpBlank,
+  boxArchive: BoxArchive,
+  clipboardArrowDown: ClipboardArrowDown,
+  clipboardArrowUp: ClipboardArrowUp,
+  clipboardAttachment: ClipboardAttachment,
+  clipboardListAlt: ClipboardListAlt,
+  clipboardList: ClipboardList,
+  clipboardMinus: ClipboardMinus,
+  clipboardPlus: ClipboardPlus,
+  clipboardTextAlt: ClipboardTextAlt,
+  clipboardText: ClipboardText,
+  clipboardUser: ClipboardUser,
+  clipboardXmark: ClipboardXmark,
+  clipboard: Clipboard,
+  clone: Clone,
+  fileAlt: FileAlt,
+  fileArrowDownBlank: FileArrowDownBlank,
+  fileArrowDownDoc: FileArrowDownDoc,
+  fileArrowDown: FileArrowDown,
+  fileArrowLeft: FileArrowLeft,
+  fileArrowRight: FileArrowRight,
+  fileArrowUpDoc: FileArrowUpDoc,
+  fileArrowUp: FileArrowUp,
+  fileBlockBlank: FileBlockBlank,
+  fileBlockDoc: FileBlockDoc,
+  fileBlock: FileBlock,
+  fileBookmarkBlank: FileBookmarkBlank,
+  fileBookmarkDoc: FileBookmarkDoc,
+  fileBookmark: FileBookmark,
+  fileChartColumn: FileChartColumn,
+  fileCheckBlank: FileCheckBlank,
+  fileCheckDoc: FileCheckDoc,
+  fileCheck: FileCheck,
+  fileCode: FileCode,
+  fileCopy: FileCopy,
+  fileDashedLine: FileDashedLine,
+  fileDollarAlt: FileDollarAlt,
+  fileDollar: FileDollar,
+  fileExclamationBlank: FileExclamationBlank,
+  fileExclamationDoc: FileExclamationDoc,
+  fileExclamation: FileExclamation,
+  fileGraph: FileGraph,
+  fileHeartBlack: FileHeartBlack,
+  fileHeartDoc: FileHeartDoc,
+  fileHeart: FileHeart,
+  fileHorizontal: FileHorizontal,
+  fileInfoBlank: FileInfoBlank,
+  fileInfoDoc: FileInfoDoc,
+  fileInfo: FileInfo,
+  fileLink: FileLink,
+  fileMinusBlank: FileMinusBlank,
+  fileMinusDoc: FileMinusDoc,
+  fileMinus: FileMinus,
+  filePencilBlank: FilePencilBlank,
+  filePencilDoc: FilePencilDoc,
+  filePencil: FilePencil,
+  filePlusBlank: FilePlusBlank,
+  filePlusDoc: FilePlusDoc,
+  filePlus: FilePlus,
+  fileQuestionBlank: FileQuestionBlank,
+  fileQuestionDoc: FileQuestionDoc,
+  fileQuestion: FileQuestion,
+  fileRedoBlank: FileRedoBlank,
+  fileRedoDoc: FileRedoDoc,
+  fileRedo: FileRedo,
+  fileSearchBlank: FileSearchBlank,
+  fileSearchDoc: FileSearchDoc,
+  fileSearch: FileSearch,
+  fileShredder: FileShredder,
+  fileSlash: FileSlash,
+  fileUser: FileUser,
+  fileVertical: FileVertical,
+  fileWired: FileWired,
+  fileXmarkBlank: FileXmarkBlank,
+  fileXmarkDoc: FileXmarkDoc,
+  fileXmark: FileXmark,
+  fileZipper: FileZipper,
+  filesAltHorizontal: FilesAltHorizontal,
+  filesHorizontal: FilesHorizontal,
+  filesVertical: FilesVertical,
+  files: Files,
+  floppyDisk: FloppyDisk,
+  folderArrowDown: FolderArrowDown,
+  folderArrowLeft: FolderArrowLeft,
+  folderArrowRight: FolderArrowRight,
+  folderArrowUp: FolderArrowUp,
+  folderBlock: FolderBlock,
+  folderCheck: FolderCheck,
+  folderExclamation: FolderExclamation,
+  folderHeart: FolderHeart,
+  folderImage: FolderImage,
+  folderInfo: FolderInfo,
+  folderLock: FolderLock,
+  folderMinus: FolderMinus,
+  folderPlus: FolderPlus,
+  folderQuestion: FolderQuestion,
+  folderSearch: FolderSearch,
+  folderShield: FolderShield,
+  folderUser: FolderUser,
+  folderXmark: FolderXmark,
+  folder: Folder,
+  memo: Memo,
+  airplay: Airplay,
+  albumCollection: AlbumCollection,
+  album: Album,
+  audioDescriptionSlasg: AudioDescriptionSlasg,
+  audioDescription: AudioDescription,
+  boombox: Boombox,
+  buffer: Buffer,
+  camcorder: Camcorder,
+  cassetteTape: CassetteTape,
+  cctv: Cctv,
+  circleMicrophone: CircleMicrophone,
+  circleVideo: CircleVideo,
+  circleWaveformLines: CircleWaveformLines,
+  circle: Circle,
+  clapperboardPlay: ClapperboardPlay,
+  clapperboard: Clapperboard,
+  clarinet: Clarinet,
+  closedCaptioning: ClosedCaptioning,
+  cloudMusic: CloudMusic,
+  compactDisc: CompactDisc,
+  dialHigh: DialHigh,
+  dialLow: DialLow,
+  dialMax: DialMax,
+  dialMedLow: DialMedLow,
+  dialMed: DialMed,
+  dialMin: DialMin,
+  dialOff: DialOff,
+  dial: Dial,
+  discDrive: DiscDrive,
+  drum: Drum,
+  fileAudio: FileAudio,
+  filmAlt: FilmAlt,
+  filmSlash: FilmSlash,
+  film: Film,
+  flute: Flute,
+  frame: Frame,
+  highDefinition: HighDefinition,
+  listMusic: ListMusic,
+  mp3Player: Mp3Player,
+  musicNoteSlash: MusicNoteSlash,
+  musicNote: MusicNote,
+  music: Music,
+  piano: Piano,
+  radio: Radio,
+  screencast: Screencast,
+  slidersSimple: SlidersSimple,
+  slidersUp: SlidersUp,
+  sliders: Sliders,
+  speakerAlt: SpeakerAlt,
+  speaker: Speaker,
+  squareRss: SquareRss,
+  squareSlidersVertical: SquareSlidersVertical,
+  squareSliders: SquareSliders,
+  starSharpHalf: StarSharpHalf,
+  starSharp: StarSharp,
+  triangleInstrument: TriangleInstrument,
+  videoArrowDownLeft: VideoArrowDownLeft,
+  videoArrowUpRight: VideoArrowUpRight,
+  videoPlus: VideoPlus,
+  videoSlash: VideoSlash,
+  video: Video,
+  bat: Bat,
+  bones: Bones,
+  bookSparkles: BookSparkles,
+  broom: Broom,
+  candleHolder: CandleHolder,
+  candleStand: CandleStand,
+  candyAlt: CandyAlt,
+  candyCorn: CandyCorn,
+  candy: Candy,
+  cat: Cat,
+  cauldron: Cauldron,
+  cleaverBlood: CleaverBlood,
+  cleaver: Cleaver,
+  coffinCross: CoffinCross,
+  coffinOpen: CoffinOpen,
+  coffin: Coffin,
+  crow: Crow,
+  flaskRoundBlank: FlaskRoundBlank,
+  flaskRoundPotion: FlaskRoundPotion,
+  frankenstein: Frankenstein,
+  ghostSmile: GhostSmile,
+  ghost: Ghost,
+  halloweenCalendarAlt: HalloweenCalendarAlt,
+  halloweenCalendarBat: HalloweenCalendarBat,
+  halloweenCalendar: HalloweenCalendar,
+  halloweenDecorations: HalloweenDecorations,
+  halloweenMailAlt: HalloweenMailAlt,
+  halloweenMail: HalloweenMail,
+  hatWitch: HatWitch,
+  hatWizardAlt: HatWizardAlt,
+  hatWizard: HatWizard,
+  hockeyMask: HockeyMask,
+  jackOLantern: JackOLantern,
+  knifeKitchen: KnifeKitchen,
+  lollipop: Lollipop,
+  mask: Mask,
+  potion: Potion,
+  scarecrow: Scarecrow,
+  scythe: Scythe,
+  sipderWeb: SipderWeb,
+  skullAlt: SkullAlt,
+  skullCute: SkullCute,
+  skull: Skull,
+  sparkles: Sparkles,
+  spiderWidow: SpiderWidow,
+  spider: Spider,
+  toiletPaperBlank: ToiletPaperBlank,
+  toiletPaperDots: ToiletPaperDots,
+  tombstoneBlank: TombstoneBlank,
+  tombstone: Tombstone,
+  wandSparkles: WandSparkles,
+  wand: Wand,
+  angel: Angel,
+  cakeChristmas: CakeChristmas,
+  candyCane: CandyCane,
+  chirstmasStar: ChirstmasStar,
+  christmasBag: ChristmasBag,
+  christmasCandle: ChristmasCandle,
+  christmasStar: ChristmasStar,
+  cookieMan: CookieMan,
+  cookie: Cookie,
+  cookies: Cookies,
+  fireplace: Fireplace,
+  lightsHoliday: LightsHoliday,
+  menorahAlt: MenorahAlt,
+  menorahCurve: MenorahCurve,
+  menorah: Menorah,
+  mistletoe: Mistletoe,
+  ornamentAlt: OrnamentAlt,
+  ornament: Ornament,
+  rockingHorse: RockingHorse,
+  santaClaus: SantaClaus,
+  santaGlove: SantaGlove,
+  santaHatAlt: SantaHatAlt,
+  santaHat: SantaHat,
+  skatesAlt: SkatesAlt,
+  skates: Skates,
+  sleigh: Sleigh,
+  snowmanHead: SnowmanHead,
+  snowman: Snowman,
+  stocking: Stocking,
+  teddyBear: TeddyBear,
+  treeDecoratedAlt: TreeDecoratedAlt,
+  treeDecorated: TreeDecorated,
+  treePlus: TreePlus,
+  tree: Tree,
+  wreath: Wreath,
   aperture: Aperture,
   colors: Colors,
   hexagonImage: HexagonImage,
@@ -1928,6 +2936,62 @@ export const icons = {
   trafficLightSlow: TrafficLightSlow,
   trafficLightStop: TrafficLightStop,
   trafficLight: TrafficLight,
+  backwardFast: BackwardFast,
+  backwardStep: BackwardStep,
+  backward: Backward,
+  circlePause: CirclePause,
+  circlePlay: CirclePlay,
+  circleStop: CircleStop,
+  compressArrowWide: CompressArrowWide,
+  compressArrow: CompressArrow,
+  compressObject: CompressObject,
+  compressWide: CompressWide,
+  compress: Compress,
+  expandAlt: ExpandAlt,
+  expandFull: ExpandFull,
+  expandObject: ExpandObject,
+  expandWide: ExpandWide,
+  expand: Expand,
+  forwardStep: ForwardStep,
+  pause: Pause,
+  playPause: PlayPause,
+  play: Play,
+  plusMinus: PlusMinus,
+  scrubber: Scrubber,
+  volumeMax: VolumeMax,
+  volumeMin: VolumeMin,
+  volumeMinus: VolumeMinus,
+  volumeOff: VolumeOff,
+  volumePlus: VolumePlus,
+  volumeXmark: VolumeXmark,
+  briefcaseMedical: BriefcaseMedical,
+  capsule: Capsule,
+  circleRadiation: CircleRadiation,
+  eyeAlt: EyeAlt,
+  eyeSlashAlt: EyeSlashAlt,
+  eyeSlash: EyeSlash,
+  eye: Eye,
+  heartAlt: HeartAlt,
+  heart: Heart,
+  idCardClip: IdCardClip,
+  kitMedical: KitMedical,
+  laptopMedical: LaptopMedical,
+  maskFace: MaskFace,
+  microscope: Microscope,
+  monitorHeartRate: MonitorHeartRate,
+  monitorMedical: MonitorMedical,
+  noteMedical: NoteMedical,
+  prescriptionBottleMedical: PrescriptionBottleMedical,
+  prescriptionBottle: PrescriptionBottle,
+  squareMedical: SquareMedical,
+  squareH: SquareH,
+  staffSnake: StaffSnake,
+  suitcaseMedical: SuitcaseMedical,
+  thermometer: Thermometer,
+  vial: Vial,
+  virusCovid: VirusCovid,
+  wavePulse: WavePulse,
+  weightScale: WeightScale,
   australSign: AustralSign,
   badgeDollar: BadgeDollar,
   badgePercent: BadgePercent,
@@ -1941,6 +3005,7 @@ export const icons = {
   chartMixedAlt: ChartMixedAlt,
   chartMixed: ChartMixed,
   chartPieSimple: ChartPieSimple,
+  chartPie: ChartPie,
   circleDollarToSlot: CircleDollarToSlot,
   circleDollar: CircleDollar,
   circlePercentage: CirclePercentage,
@@ -2041,6 +3106,13 @@ export const icons = {
   userXmark: UserXmark,
   user: User,
   users: Users,
+  cloche: Cloche,
+  forkKnife: ForkKnife,
+  forkSpoon: ForkSpoon,
+  martiniGlass: MartiniGlass,
+  mugSauser: MugSauser,
+  restaurantMenu: RestaurantMenu,
+  wineGlass: WineGlass,
   ban: Ban,
   bookSection: BookSection,
   bugSlash: BugSlash,
@@ -2089,6 +3161,68 @@ export const icons = {
   userLockAlt: UserLockAlt,
   userLockDefault: UserLockDefault,
   userLock: UserLock,
+  figma: Figma,
+  square: Square,
+  ballPile: BallPile,
+  box: Box,
+  circleHalf: CircleHalf,
+  circleHeart: CircleHeart,
+  circleQuarters: CircleQuarters,
+  circleThreeQuarters: CircleThreeQuarters,
+  club: Club,
+  crown: Crown,
+  cubeAlt: CubeAlt,
+  cube: Cube,
+  dazzle: Dazzle,
+  dazzlingStar: DazzlingStar,
+  diamondXmark: DiamondXmark,
+  diamond: Diamond,
+  diceFive: DiceFive,
+  diceFour: DiceFour,
+  diceOne: DiceOne,
+  diceSix: DiceSix,
+  diceThree: DiceThree,
+  diceTwo: DiceTwo,
+  heartCrack: HeartCrack,
+  heartHalfStroke: HeartHalfStroke,
+  heartHalf: HeartHalf,
+  hexagonAlt: HexagonAlt,
+  hexagon: Hexagon,
+  linesLeaning: LinesLeaning,
+  octagon: Octagon,
+  pentagon: Pentagon,
+  rectangleVertical: RectangleVertical,
+  rectangleWide: RectangleWide,
+  rhombus: Rhombus,
+  seal: Seal,
+  shapes: Shapes,
+  squareDazzle: SquareDazzle,
+  squareQuarters: SquareQuarters,
+  squareRing: SquareRing,
+  squareSmall: SquareSmall,
+  starFourWide: StarFourWide,
+  starFour: StarFour,
+  starHalfStroke: StarHalfStroke,
+  starSix: StarSix,
+  stars: Stars,
+  ticketSimple: TicketSimple,
+  triangle: Triangle,
+  arrowSpin: ArrowSpin,
+  asterisk: Asterisk,
+  badge: Badge,
+  certificateCheck: CertificateCheck,
+  certificate: Certificate,
+  circleNotch: CircleNotch,
+  compass: Compass,
+  crosshairSimple: CrosshairSimple,
+  crosshair: Crosshair,
+  gearAlt: GearAlt,
+  gear: Gear,
+  loader: Loader,
+  palette: Palette,
+  slashFlip: SlashFlip,
+  slash: Slash,
+  turnOff: TurnOff,
   alignAlt: AlignAlt,
   alignCenterAlt: AlignCenterAlt,
   alignCenterJustify: AlignCenterJustify,
@@ -2238,6 +3372,60 @@ export const icons = {
   stopwatchTime: StopwatchTime,
   stopwatch: Stopwatch,
   timer: Timer,
+  circleHeat: CircleHeat,
+  cloudArrowDown: CloudArrowDown,
+  cloudBolt: CloudBolt,
+  cloudFog: CloudFog,
+  cloudMoon: CloudMoon,
+  cloudRainAlt: CloudRainAlt,
+  cloudRainThunder: CloudRainThunder,
+  cloudRain: CloudRain,
+  cloudRainbow: CloudRainbow,
+  cloudShowers: CloudShowers,
+  cloudSleet: CloudSleet,
+  cloudSnowAlt: CloudSnowAlt,
+  cloudSnow: CloudSnow,
+  cloudSunAlt: CloudSunAlt,
+  cloudSun: CloudSun,
+  cloudUpArrow: CloudUpArrow,
+  cloud: Cloud,
+  clouds: Clouds,
+  dropletAlt: DropletAlt,
+  dropletDegree: DropletDegree,
+  dropletSlash: DropletSlash,
+  droplet: Droplet,
+  droplets: Droplets,
+  eclipse: Eclipse,
+  heatAlt: HeatAlt,
+  hurricaneAlt: HurricaneAlt,
+  hurricane: Hurricane,
+  icicles: Icicles,
+  moonCloud: MoonCloud,
+  moonStars: MoonStars,
+  rainbow: Rainbow,
+  snowAlt: SnowAlt,
+  snowBlowing: SnowBlowing,
+  snowWide: SnowWide,
+  snow: Snow,
+  sunDust: SunDust,
+  sunHaze: SunHaze,
+  sunrise: Sunrise,
+  sunset: Sunset,
+  temperatureArrowDown: TemperatureArrowDown,
+  temperatureArrowUp: TemperatureArrowUp,
+  temperatureEmpty: TemperatureEmpty,
+  temperatureFull: TemperatureFull,
+  temperatureHalf: TemperatureHalf,
+  temperatureHigh: TemperatureHigh,
+  temperatureList: TemperatureList,
+  temperatureLow: TemperatureLow,
+  temperatureQuarter: TemperatureQuarter,
+  temperatureSnow: TemperatureSnow,
+  temperatureSun: TemperatureSun,
+  umbrella: Umbrella,
+  waterArrowDown: WaterArrowDown,
+  waterArrowUp: WaterArrowUp,
+  water: Water,
 };
 
 export type IconName = keyof typeof icons;
