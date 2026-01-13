@@ -13,10 +13,8 @@ const Icon = ({
   size = 24,
   color = "#000",
   strokeWidth = 2,
-  ...props
 }: IconProps) => {
   const SvgIcon = icons[name];
-
   if (!SvgIcon) return null;
 
   return (
@@ -25,7 +23,6 @@ const Icon = ({
       height={size}
       stroke={color}
       strokeWidth={strokeWidth}
-      {...props}
     />
   );
 };

@@ -3,16 +3,16 @@
 [![npm version](https://badge.fury.io/js/%40soluxicons%2Ficons.svg)](https://badge.fury.io/js/%40soluxicons%2Ficons)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A modern, comprehensive SVG icon library for **React Native**, **React JS**, and **Next.js**. Beautiful, customizable icons with TypeScript support and optimized performance across all platforms.
+A modern, comprehensive SVG icon library for **React Native**. Beautiful, customizable icons with TypeScript support and optimized performance for mobile development.
 
 ## ✨ Features
 
 - 🎨 **Modern SVG Icons** - Clean, scalable vector graphics
-- 📱 **Cross-Platform** - Works seamlessly with React Native, React JS, and Next.js
+- 📱 **Built for React Native** - Seamless integration with your React Native projects
 - 🔷 **TypeScript Support** - Full type safety with `IconName` types
 - ⚡ **Optimized** - Tree-shakable and performant
-- 🎯 **Customizable** - Size, color, and stroke width control
-- 📦 **Lightweight** - No external dependencies for icons themselves
+- 🎯 **Customizable** - Easily control size, color, and stroke width
+- 📦 **Lightweight** - No external dependencies for icons themselves (apart from `react-native-svg`)
 
 ## 🚀 Installation
 
@@ -22,12 +22,10 @@ npm install @soluxicons/icons react-native-svg
 yarn add @soluxicons/icons react-native-svg
 ```
 
-### React Native Setup
-
-For React Native, you also need `react-native-svg`:
+**iOS Only:**  
+After installation, navigate to your `ios` directory and run:
 
 ```bash
-npm install react-native-svg
 cd ios && pod install
 ```
 
@@ -77,22 +75,6 @@ const styles = StyleSheet.create({
 });
 ```
 
-### React Web Example
-
-```tsx
-import React from 'react';
-import { Icon } from '@soluxicons/icons';
-
-export default function MyComponent() {
-  return (
-    <div>
-      <Icon name="user" size={20} color="#333" />
-      <Icon name="settings" size={16} color="#666" />
-    </div>
-  );
-}
-```
-
 ## 🎨 Icon Props
 
 | Prop | Type | Default | Description |
@@ -139,7 +121,6 @@ src/
 │   ├── Icon.tsx    # Main Icon component
 │   ├── index.ts    # Icon exports and types
 │   └── svgs/       # Individual SVG icon files
-├── web/            # Web-specific implementation
 ├── native/         # React Native-specific implementation
 └── index.ts        # Main library exports
 ```
@@ -148,6 +129,7 @@ src/
 
 1. Add your SVG file to the appropriate category folder in `src/icons/svgs/`
 2. Run `npm run normalize:svgs` to standardize the SVG format
+3. Run `npm run generate:icons` to insert the icons in `src/icons/index.ts` 
 3. The build script will automatically include new icons
 
 ## 🤝 Contributing
@@ -155,7 +137,7 @@ src/
 We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/AmazingIcons`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
@@ -168,4 +150,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Icons designed with modern aesthetics in mind
 - Built with TypeScript for better developer experience
-- Optimized for performance across all platforms
+- Optimized for performance in React Native
