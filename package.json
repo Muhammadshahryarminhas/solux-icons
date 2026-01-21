@@ -1,6 +1,6 @@
 {
   "name": "@soluxicons/icons",
-  "version": "0.2.2",
+  "version": "0.2.6",
   "description": "Modern SVG icon library for React Native",
   "private": false,
 
@@ -25,12 +25,16 @@
   },
 
 
-  "scripts": {
-    "normalize:svgs": "node scripts/normalize-svgs.ts",
-    "generate:icons": "node scripts/generate-icons.ts",
-    "build": "tsc -p tsconfig.build.json",
-    "release": "npm run normalize:svgs && npm run generate:icons && npm run build"
-  },
+"scripts": {
+  "normalize:svgs": "node scripts/normalize-svgs.ts",
+  "generate:icons": "node scripts/generate-icons.ts",
+  "build": "tsc -p tsconfig.build.json && node scripts/copy-svgs.ts",
+  "prepublishOnly": "npm run build",
+  "release": "npm run normalize:svgs && npm run generate:icons && npm run build",
+  "start": "react-native start",
+  "android": "react-native run-android",
+  "ios": "react-native run-ios"
+},
 
 
   "peerDependencies": {

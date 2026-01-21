@@ -2092,7 +2092,7 @@ export const icons = {
   chartPyramid: ChartPyramid,
   chartRadar: ChartRadar,
   chartScatter3d: ChartScatter3d,
-  chartScatterBubble: ChartScatterBubble, 
+  chartScatterBubble: ChartScatterBubble,
   chartScatter: ChartScatter,
   chartSimpleHorizontal: ChartSimpleHorizontal,
   chartSimple: ChartSimple,
